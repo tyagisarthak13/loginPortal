@@ -166,7 +166,7 @@ const Companies = () => {
 
   const viewCompanyDetails = (company) => {
     // Navigate to company details page
-    navigate(`/companies/${company.id}`, { state: { company } });
+    navigate(`/admin/companies/${company.id}`, { state: { company } });
   };
 
   if (loading) {

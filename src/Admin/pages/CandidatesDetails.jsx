@@ -106,7 +106,7 @@ const CandidateDetails = () => {
     >
       {/* Back Button */}
       <button
-        onClick={() => navigate("/candidates")}
+        onClick={() => navigate("/admin/candidates")}
         className="flex items-center gap-2 text-gray-600 hover:text-gray-900 mb-6 cursor-pointer"
       >
         <ArrowLeft className="h-5 w-5" />

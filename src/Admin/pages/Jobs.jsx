@@ -162,7 +162,7 @@ const Jobs = () => {
 
   const viewJobDetails = (job) => {
     // Navigate to job details page
-    navigate(`/jobs/${job.id}`, { state: { job } });
+    navigate(`/admin/jobs/${job.id}`, { state: { job } });
   };
 
   const changeJobStatusInList = (jobId, newStatus) => {

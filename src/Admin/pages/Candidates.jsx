@@ -186,7 +186,7 @@ const Candidates = () => {
 
   const viewCandidateDetails = (candidate) => {
     // Navigate to candidate details page
-    navigate(`/candidates/${candidate.id}`, { state: { candidate } });
+    navigate(`/admin/candidates/${candidate.id}`, { state: { candidate } });
   };
 
   if (loading) {

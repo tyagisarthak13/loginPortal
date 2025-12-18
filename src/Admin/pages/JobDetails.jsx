@@ -34,7 +34,7 @@ const JobDetails = () => {
         <div className="text-center">
           <p className="text-gray-600 mb-4">Job not found</p>
           <button
-            onClick={() => navigate("/requirements")}
+            onClick={() => navigate("/admin/jobs")}
             className="px-4 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-colors cursor-pointer"
           >
             Back to Jobs
@@ -115,7 +115,7 @@ const JobDetails = () => {
     >
       {/* Back Button */}
       <button
-        onClick={() => navigate("/jobs")}
+        onClick={() => navigate("/admin/jobs")}
         className="flex items-center gap-2 text-gray-600 hover:text-gray-900 mb-6 cursor-pointer"
       >
         <ArrowLeft className="h-5 w-5" />
